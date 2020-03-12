@@ -1,5 +1,5 @@
-from swiftsmith.grammar.cfg import Nonterminal, Production, CFG
-from swiftsmith.grammar.parsetree import ParseTree
+from .cfg import Nonterminal, Production, CFG
+from .parsetree import ParseTree
 
 import random
 import copy

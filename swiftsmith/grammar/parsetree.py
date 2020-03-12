@@ -1,4 +1,4 @@
-from swiftsmith.grammar.cfg import Nonterminal
+from .cfg import Nonterminal
 
 class Tree(object):
     """A data structure representing a hierarchical collection."""
