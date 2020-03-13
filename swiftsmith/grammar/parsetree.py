@@ -147,4 +147,4 @@ class ParseTree(Tree):
         """
         if self.isleaf():
             return str(self.value)
-        return "".join(child.string() for child in self.children)
+        return " ".join(child.string() for child in self.children)

@@ -70,7 +70,7 @@ class ParseTreeTest(unittest.TestCase):
         self.assertEqual(frontier_values(tree), [])
 
     def test_string_traverses_tree(self):
-        tree = ParseTree(self.A, ["Hello ", "world!"])
+        tree = ParseTree(self.A, ["Hello", "world!"])
         self.assertEqual(tree.string(), "Hello world!")
 
     def test_string_excludes_childless_nonterminals(self):
